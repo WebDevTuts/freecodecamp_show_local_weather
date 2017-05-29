@@ -52,7 +52,8 @@ function getLocationAndWeather() {
       alert("Could not complete the request");
     }, false);
 
-    xhr.open("GET", "https://fourtonfish.com/tutorials/weather-web-app/getlocationandweather.php?owapikey=e2db5b0453a25a492e87ad8b03046a7c&units=metric", true);
+    // xhr.open("GET", "https://fourtonfish.com/tutorials/weather-web-app/getlocationandweather.php?owapikey=e2db5b0453a25a492e87ad8b03046a7c&units=metric", true);
+    xhr.open("GET", "https://raw.githubusercontent.com/WebDevTuts/freecodecamp_show_local_weather/gh-pages/weatherInfo.json", true);
 
     xhr.send();
   } else {
