@@ -59,3 +59,11 @@ function getLocationAndWeather() {
     alert("Unable to fetch the location and weather data.");
   }
 }
+
+function loadBackground(lat, lon, weatherTag) {
+  var script_element = document.createElement('script');
+
+  script_element.src = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=1452866c8cea54acd0075022ef573a07&lat=" + lat + "&lon=" + lon + "&accuracy=1&tags=" + weatherTag + "&sort=relevance&extras=url_l&format=json";
+
+  document.getElementsByTagName('head')[0].appendChild(script_element);
+}
