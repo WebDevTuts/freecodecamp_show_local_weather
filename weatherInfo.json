@@ -1,0 +1,10 @@
+{
+  "latitude":1.2855,
+  "longitude":103.8565,
+  "city":"Singapore",
+  "weather":{
+    "simple":"Clouds",
+    "description":"broken clouds",
+    "temperature":28.71},
+  "source":"smart-ip.net, openweathermap.org"
+}
