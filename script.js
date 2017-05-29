@@ -5,3 +5,8 @@ var weatherData = {
   temperatureValue: 0,
   units: "°C"
 };
+
+function roundTemperature(temp) {
+  temp = temp.toFixed(1);
+  return temp;
+}
