@@ -78,3 +78,5 @@ function jsonFlickrApi(data) {
     document.querySelector("#image-source").setAttribute("href", "https://www.flickr.com/photos/superfamous/310185523/sizes/o/");
   }
 }
+
+getLocationAndWeather();
